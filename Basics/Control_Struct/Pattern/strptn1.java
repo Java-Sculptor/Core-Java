@@ -1,3 +1,10 @@
+/*
+*
+**
+***
+****
+*****
+*/
 package Basics.Control_Struct.Pattern;
 
 import Basics.Control_Struct.for5;

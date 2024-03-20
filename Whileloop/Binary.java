@@ -7,10 +7,10 @@ public class Binary {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter any numm:");
         int d=sc.nextInt();
-        String b=Binary(d);
+        String b=toBinary(d);
         System.out.println(b);
     }
-    public static String Binary(int d)
+    public static String toBinary(int d)
     {
         StringBuilder b = new StringBuilder();
 		        if (d == 0) {

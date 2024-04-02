@@ -1,7 +1,5 @@
 package NestedClass;
 
-import Interface.I;
-
 class Outer 
 {
     int x=8;

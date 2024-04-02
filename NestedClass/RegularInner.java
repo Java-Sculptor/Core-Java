@@ -3,6 +3,7 @@ package NestedClass;
 class Outer 
 {
     int x=8;
+    static int z=67;
     public void F1()
     {
         System.out.println("Outer class Method");
@@ -15,6 +16,7 @@ class Outer
         {
             System.out.println("Inner class Method");
             System.out.println("Outer class var in inner class x = "+x);
+            System.out.println("Outer class static var in inner class z = "+z);
         }   
     }
 

@@ -1,5 +1,5 @@
 package Interface;
-interface I
+interface Intra
 {
     default void call()
     {
@@ -10,7 +10,7 @@ interface I
         System.out.println("Sum = "+(x+y));
     }
 }
-class Damn implements I
+class Damn implements Intra
 {
     public void sub(int x,int y)
     {

@@ -1,6 +1,6 @@
 package Interface;
 
-interface I
+interface Ia
 {
     public static void call()
     {
@@ -11,7 +11,7 @@ interface I
         System.out.println("Sum = "+(x+y));
     }
 }
-class Damn implements I
+class Damn implements Ia
 {
     public void sub(int x,int y)
     {
@@ -21,7 +21,7 @@ class Damn implements I
 public class PrivateInterfacestatic  {
     public static void main(String[] args) {
         Damn d=new Damn();
-    I.call();
+    Ia.call();
     d.sub(20,10);
     }
     

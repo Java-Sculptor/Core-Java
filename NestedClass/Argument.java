@@ -6,7 +6,7 @@ public class Argument {
         Thread t=new Thread(new Runnable(){
             public void run()
             {
-                System.out.println("constructor argument");
+                System.out.println("Anonymous inner class as constructor argument");
             }
         });
         t.start();

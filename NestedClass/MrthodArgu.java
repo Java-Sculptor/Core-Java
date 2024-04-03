@@ -1,4 +1,4 @@
-package Interface;
+package NestedClass;
 
 interface MyInterface
 {

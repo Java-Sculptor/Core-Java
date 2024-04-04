@@ -22,5 +22,6 @@ public class StaticNestedClass {
         Nested.m1();
         Nested n=new Nested();
         n.m2();
+        System.out.println(n.getClass().getName());
     }
 }

@@ -13,7 +13,7 @@ public class Compare {
         String s4="Advait";
 
         System.out.println(s3==s4);//true
-        System.out.println(s3.equals(s4));//true
+        System.out.println(s3.equals(s4));
          
     }
 }
